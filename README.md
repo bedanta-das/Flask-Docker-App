@@ -77,7 +77,11 @@ Explanation:
 * Useful to debug Python errors or missing packages.
 
 ## Example Output
+* Output 1 -- Homepage - http://localhost/
+
 <img src="Output1.png" width="400">
+
+* Output 2 -- Health check - http://localhost/health
 
 <img src="Output2.jpg" width="400">
 
