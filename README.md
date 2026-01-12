@@ -1,4 +1,4 @@
-# Flask-Docker-App
+# Flask-Docker-App :whale2:
 A simple Flask web application deployed using Docker.
 This app has:
 * Homepage: / → Displays “Hey, Welcome to Devops” (http://localhost)
@@ -33,7 +33,7 @@ flask-docker-app/
 * RUN pip install -r requirements.txt → Install dependencies.
 * ENTRYPOINT ["python", "app.py"] → Run Flask app when container starts.
 
-## Build and Run the Docker Container
+## Build and Run the Docker Container :whale2:
 ### Step 1. Build Docker image by below command
 
 docker build --no-cache -t flask-app .
