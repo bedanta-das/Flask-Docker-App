@@ -77,7 +77,7 @@ Explanation:
 * Useful to debug Python errors or missing packages.
 
 ## Example Output
-<img src="Output1.jpg" width="400">
+<img src="Output1.png" width="400">
 
 <img src="Output2.jpg" width="400">
 
