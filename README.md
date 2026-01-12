@@ -6,8 +6,13 @@ This app has:
 
 ## :open_file_folder: Project Structure
 flask-docker-app/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 └── README.md
