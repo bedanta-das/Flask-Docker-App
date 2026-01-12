@@ -76,8 +76,18 @@ docker logs <container_id>
 Explanation:
 * Useful to debug Python errors or missing packages.
 
+## Example Output
+<img src="Output1.jpg" width="400">
+
+<img src="Output2.jpg" width="400">
+
 ## Best Practices
 1. Flask must bind to 0.0.0.0 so it’s accessible outside the container.
 2. Check Docker logs if the container crashes immediately.
 3. Use --no-cache when rebuilding to avoid stale layers.
+
+## :page_facing_up: License
+This project is provided for learning and demonstration purposes.
+Feel free to use, modify, and distribute.
+
 
