@@ -92,6 +92,6 @@ Explanation:
 
 ## :page_facing_up: License
 This project is provided for learning and demonstration purposes.
-Feel free to use, modify, and distribute.
+Feel free to use, modify, & distribute.
 
 
