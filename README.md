@@ -36,7 +36,7 @@ flask-docker-app/
 ## Build and Run the Docker Container :whale2:
 ### Step 1. Build Docker image by below command
 
-docker build --no-cache -t flask-app .
+    docker build --no-cache -t flask-app .
 
 Explanation:
 * docker build → Builds a Docker image from the Dockerfile.
@@ -45,7 +45,7 @@ Explanation:
 
 ### Step 2. Run Docker container by below command
 
-docker run -d -p 80:80 flask-app
+    docker run -d -p 80:80 flask-app
 
 Explanation:
 * docker run → Starts a container from the image.
@@ -55,7 +55,7 @@ Explanation:
 
 ### Step 3: Verify container is running by below command
 
-docker ps
+    docker ps
 
 Explanation:
 * Shows all running containers.
@@ -63,15 +63,15 @@ Explanation:
 ### Step 4: Access the Flask app in browser
 * Homepage:
 
-http://localhost/
+      http://localhost/
 
 * Health check:
 
-http://localhost/health
+      http://localhost/health
 
 ### Step 5: View container logs (if needed)
 
-docker logs <container_id>
+    docker logs <container_id>
 
 Explanation:
 * Useful to debug Python errors or missing packages.
